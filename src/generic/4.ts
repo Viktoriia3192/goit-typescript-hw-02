@@ -1,9 +1,11 @@
 /*
   Використовуйте generics та інтерфейси, щоб виправити помилку в наступних класах:
 */
-
+interface pageProps{
+  title:string
+}
 class Component {
-  constructor (public props:T) {
+  constructor (public props:pageProps) {
 
   }
 }
